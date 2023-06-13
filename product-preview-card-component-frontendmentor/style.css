@@ -1,0 +1,120 @@
+:root {
+    --clr-dark-cyan: hsl(158, 36%, 37%);
+    --clr-cream:hsl(30, 38%, 92%);
+    --clr-very-dark-blue: hsl(212, 21%, 14%);
+    --clr-dark-blue: hsl(228, 12%, 48%);
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-accent: hsl(158, 44%, 18%);
+
+    --ff-p: 'Montserrat', sans-serif;
+    --ff-h: 'Fraunces', serif;
+
+    --fs-p: 14px;
+
+    --fw-medium: 500;
+    --fw-bold: 700;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--ff-p);
+    background-color: var(--clr-cream);
+}
+
+.container {
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+
+}
+
+.product-card {
+    min-width: 600px;
+    height: 450px;
+    background-color: var(--clr-white);
+    display: flex;
+    border-radius: 0.7rem;
+}
+
+.product-card > picture * {
+    width: 300px;
+    border-top-left-radius: 0.7rem;
+    border-bottom-left-radius: 0.7rem;
+}
+
+.product-description {
+    width: 300px;
+    padding: 2rem;
+}
+
+.product-description > span {
+    letter-spacing: 2px;
+    font-size: var(--ff-p);
+    color: var(--clr-dark-blue);
+    font-size: var(--fs-p);
+}
+
+.product-description > h1 {
+    color: var(--clr-very-dark-blue);
+    font-family: var(--ff-h);
+    padding: .5rem 0;
+    line-height: 1;
+}
+
+.product-description > p {
+    color: var(--clr-dark-blue);
+    font-size: var(--fs-p);
+    padding: 1rem 0;
+    text-align: left;
+    line-height: 1.7;
+}
+
+.product-price {
+    display: flex;
+    gap: 1rem;
+    padding: 0.75rem 0;
+}
+.new-price {
+    color: var(--clr-dark-cyan);
+    font-family: var(--ff-h);
+
+}
+.old-price {
+    color: var(--clr-dark-blue);
+    align-self: center;
+    text-decoration: line-through;
+    font-size: var(--fs-p);
+}
+
+.add-to-cart {
+    background-color: var(--clr-dark-cyan);
+    color: var(--clr-white);
+    text-align: center;
+    padding: 1rem;
+    border-radius: .5rem;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    font-weight: var(--fw-medium);
+    margin-top: .75rem;
+}
+.add-to-cart img {
+    padding-right: .5rem;
+}
+
+.add-to-cart:hover {
+    background-color: var(--clr-accent);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(158°, 44%, 18%);
+}
