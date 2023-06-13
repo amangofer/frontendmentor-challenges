@@ -118,3 +118,33 @@ body {
 .attribution a {
     color: hsl(158°, 44%, 18%);
 }
+
+@media only screen and (max-width: 650px) {
+    .product-card {
+        min-width: 345px;
+        min-height: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+    .product-card > picture *{
+        min-width: 100%;
+        border-top-left-radius: 0.7rem;
+        border-top-right-radius: 0.7rem;
+        border-bottom-left-radius: 0;
+    }
+    .product-description {
+        width: 345px;
+        padding: 1rem;
+    }
+
+    .product-description > p {
+        padding: 0.5rem 0.65rem;
+    }
+    .product-price  {
+        padding-top: 0;
+    }
+
+    .add-to-cart {
+        margin: 0;
+    }
+}
