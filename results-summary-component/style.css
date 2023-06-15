@@ -1,0 +1,181 @@
+:root {
+    --clr-light-red: hsl(0, 100%, 67%);
+    --clr-orangey-yellow: hsl(39, 100%, 56%);
+    --clr-green-teal: hsl(166, 100%, 37%);
+    --clr-cobalt-blue: hsl(234, 85%, 45%);
+
+    --clr-light-slate-blue: hsl(252, 100%, 67%);
+    --clr-light-royal-blue: hsl(241, 81%, 54%);
+    --clr-violet-blue: hsla(256, 72%, 46%, 1);
+    --clr-persian-blue: hsla(241, 72%, 46%, 0);
+
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-ale-blue: hsl(221, 100%, 96%);
+    --clr-light-lavender: hsl(241, 100%, 89%);
+    --clr-dark-gray-blue: hsl(224, 30%, 27%);
+
+    --ff: 'Hanken Grotesk', sans-serif;
+
+    --fs-p: 18px;
+
+    --fw-medium: 500;
+    --fw-bold: 700;
+    --fw-extra-bold: 800;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--ff);
+}
+
+.container {
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.result-card {
+    box-shadow: 20px 20px 50px var(--clr-ale-blue);
+    width: 740px;
+    height: 500px;
+    border-radius: 1rem;
+    display: flex;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(var(--clr-light-slate-blue), var(--clr-light-royal-blue));
+    width: 50%;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.result > span {
+    color: var(--clr-light-lavender);
+    padding-bottom: 2rem;
+    font-size: 1.35rem;
+    font-weight: var(--fw-bold);
+}
+
+.result > h2 {
+    color: var(--clr-white);
+    padding-top: 1.5rem;
+    font-size: 2rem;
+    color: --clr-ale-blue;
+}
+
+.result > p {
+    color: var(--clr-light-lavender);
+    text-align: center;
+    padding: 1rem 1.25rem;
+    font-size: var(--fs-p);
+    color: hsla(241, 100%, 89%,0.8);
+}
+.score {
+    background: linear-gradient(var(--clr-violet-blue), var(--clr-persian-blue));
+    border-radius: 50%;
+    padding: 3rem 4rem;
+    text-align: center;
+}
+
+.score > h1 {
+    color: var(--clr-white);
+    font-weight: var(--fw-extra-bold);
+    font-size: 4rem;
+}
+
+.score > span {
+    color: var(--clr-light-lavender);
+    color: hsla(241, 100%, 89%,.5);
+    font-size: var(--fs-p);
+}
+
+.summery {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 2rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--clr-white);
+}
+.summery > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+.summery > h2 {
+    color: var(--clr-dark-gray-blue);
+    padding-bottom: 1rem;
+}
+.single-result {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-weight: var(--fw-medium);
+}
+
+.reaction {
+    color: var(--clr-light-red);
+    background-color: hsla(0, 100%, 67%, .05);
+}
+.memory {
+    color: var(--clr-orangey-yellow);
+    background-color: hsla(39, 100%, 56%, .05);
+}
+.verbal {
+    color: var(--clr-green-teal);
+    background-color: hsla(166, 100%, 37%, .05);
+}
+.visual {
+    color: var(--clr-cobalt-blue);
+    background-color: hsla(234, 85%, 45%, .05);
+}
+
+.left {
+    display: flex;
+    gap: 1rem;
+}
+
+.right {
+    font-weight: var(--fw-bold);
+}
+.right > span:first-child {
+    color: var(--clr-dark-gray-blue);
+}
+
+.right > span:last-child {
+    color: hsla(224, 30%, 27%,0.5);
+}
+
+.summery > a {
+    text-align: center;
+    background-color: var(--clr-dark-gray-blue);
+    padding: 1rem;
+    color: var(--clr-white);
+    text-decoration: none;
+    font-size: var(--fs-p);
+    border-radius: 2rem;
+    color: var(--clr-ale-blue);
+}
+
+.summery > a:hover {
+    background: linear-gradient(var(--clr-light-slate-blue), var(--clr-light-royal-blue));
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
