@@ -108,3 +108,38 @@ body {
     color: hsl(228, 45%, 44%);
 }
 
+@media only screen and (max-width: 650px) {
+    .container {
+        margin: 5rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .preview-container {
+        width: 330px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .preview-card > h1 {
+        padding-top: 2rem;
+        padding-bottom: 1.5rem;
+        font-size: 2.35rem;
+    }
+
+    .preview-card > a {
+        margin-top: 2rem;
+    }
+
+    .sedans {
+        border-radius: 0;
+        background-color: var(--clr-primary-100);
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+    }
+    .luxury {
+        border-radius: 0;
+        background-color: var(--clr-primary-300);
+        border-bottom-right-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+    }
+}
