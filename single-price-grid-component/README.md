@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live site](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/single-price-grid-component-using-html-and-css-g9d7Xl5bBE)
+- Live Site URL: [Live site](https://super-gaufre-38bea4.netlify.app)
 
 ## My process
 
