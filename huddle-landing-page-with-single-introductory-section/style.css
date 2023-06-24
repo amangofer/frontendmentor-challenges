@@ -133,3 +133,39 @@ body {
     color: hsl(191, 79%, 51%);
 }
 
+
+@media only screen and (max-width: 750px ) {
+    body {
+        background-image: url(images/bg-mobile.svg);
+    }
+
+    .main {
+        display: block;
+        margin-bottom: 3rem;
+    }
+
+    .hero {
+        display: block;
+        text-align: center;
+    }
+    .hero img {
+        max-width: 90%;
+    }
+    .hero-text > h1 {
+        padding-right: 0;
+    }
+    .hero-text > p {
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+
+    .hero-text > a {
+        width: 60%;
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    .social {
+        align-self: center;
+    }
+}
