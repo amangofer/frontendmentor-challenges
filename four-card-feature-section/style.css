@@ -131,7 +131,6 @@ body {
 
 
 .attribution {
-    margin-top: 5rem;
     font-size: 11px;
     text-align: center;
 }
@@ -154,5 +153,9 @@ body {
         display: flex;
         flex-direction: column;
 
+    }
+
+    .attribution {
+        margin-top: 5rem;
     }
 }
