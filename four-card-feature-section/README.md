@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/amangofer/frontendmentor-challenges/tree/main/four-card-feature-section)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/four-card-feature-section-using-html-and-css-DFJ_wedInY)
 - Live Site URL: [Live site](https://jocular-mooncake-ff70f5.netlify.app)
 
 ## My process
