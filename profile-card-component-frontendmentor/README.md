@@ -1,2 +1,38 @@
-# profile-card-component-frontendmentor
-Profile Card Component Challenge from Frontend Mentor
+# Frontend Mentor - Profile card component solution
+
+This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+## Table of contents
+
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
+
+## Overview
+
+### Screenshot
+
+![](./screenshot.jpg)
+
+
+### Links
+
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/profile-card-component-using-html-and-css-N50gL525g2)
+- Live Site URL: [Live site](https://amangofer.github.io/profile-card-component-frontendmentor/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+
+## Author
+
+- Frontend Mentor - [@amangofer](https://www.frontendmentor.io/profile/amangofer)
