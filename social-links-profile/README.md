@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://github.com/amangofer/frontendmentor-challenges/tree/main/social-links-profile)
-- Live Site URL: [Live Site]()
+- Live Site URL: [Live Site](https://social-links-profile42.netlify.app/)
 
 ## My process
 
