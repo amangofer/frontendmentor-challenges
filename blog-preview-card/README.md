@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution](https://github.com/amangofer/frontendmentor-challenges/tree/main/blog-preview-card)
-- Live Site URL: [Live Site]()
+- Live Site URL: [Live Site](https://blog-preview-card-1.netlify.app/)
 
 ## My process
 
